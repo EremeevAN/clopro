@@ -12,4 +12,5 @@
 
 ![image](https://github.com/EremeevAN/clopro/blob/main/images/3.png)
 
-[Ссылка на файлы Terraform] (https://github.com/EremeevAN/clopro/tree/main/15.1)
+
+[Ссылка на файлы Terraform](https://github.com/EremeevAN/clopro/tree/main/15.1)
