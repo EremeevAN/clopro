@@ -6,7 +6,7 @@ locals {
   vm_test_name     = "test-vm"
   vm_nat_name      = "nat"
   route_table_name = "nat-route"
-  ssh_key_path = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICcgt/AOnVvE8jIXBvqvW2o3J91v26dcRRxI/O03mEgf user@WIN-SQL1"
+  ssh_key_path = ""
 }
 
 resource "yandex_vpc_network" "develop" {
@@ -138,4 +138,5 @@ resource "yandex_vpc_route_table" "nat-route" {
     destination_prefix = "0.0.0.0/0"
     next_hop_address   = yandex_compute_instance.nat-instance.network_interface.0.ip_address
   }
+
 }
